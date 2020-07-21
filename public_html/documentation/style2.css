@@ -1,0 +1,47 @@
+
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.3)), url(img/canyon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
+
+}
+.aboutMe-fluid, .input-group-text{
+    background-color: #F49C4D ;
+}
+.navbar{
+    background-color: #e67e22;
+}
+.btn{
+    background-color: #e67e22;
+
+}
+.card {
+    border: 1px solid #924500;
+    box-shadow: 0 2px 5px  #924500;
+}
+.carousel-item img{
+    width: 75%;
+}
+.portfolio:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 70%;
+    margin: 5rem auto 0;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(50%);
+}

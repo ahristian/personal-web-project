@@ -1,9 +1,8 @@
-/*
+
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    margin: 1rem;
 }
 .milestone1 h1 {
     text-align: center;
@@ -13,13 +12,12 @@
 .milestone1{
     font-family: SansSerif, Verdana, sans-serif;
     font-size: 20px;
-    margin: 0.4rem;
     background-color: #e5e5e5;
 }
 .persona-details, .userStory {
     width: 70%;
     text-align: justify;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
 }
 .descriptionImage {
     display: flex;
@@ -29,79 +27,8 @@
     margin: 2rem 0;
 }
 .milestone1 img{
-    height: 40%;
+    height: 30%;
     margin-top: 4rem;
     border: 1px solid black;
-}
-*/
-
-.bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.3)), url(img/canyon.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    max-width: 100%;
 
 }
-.aboutMe-fluid, .input-group-text{
-    background-color: #F49C4D ;
-}
-.navbar{
-    background-color: #e67e22;
-}
-.btn{
-    background-color: #e67e22;
-
-}
-.card {
-    border: 1px solid #924500;
-    box-shadow: 0 2px 5px  #924500;
-}
-.carousel-item img{
-    width: 75%;
-}
-.portfolio:after {
-    display: block;
-    height: 2px;
-    background-color: #e67e22;
-    content: " ";
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 5rem;
-}
-
-.btn {
-    : flex-end;
-}
-/*
-.iconNext, .iconPrev {
-    color:#e67e22;
-
-}
-.iconBack:after {
-    content: '<';
-    font-size: 55px;
-    color: #e67e22;
-}
-.iconNext:after {
-    content: '>';
-    font-size: 55px;
-    color: #e67e22;
-}
-*/
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(50%);
-}
-/*
-.card {
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.card img:hover {
-    opacity: 1;
-    transform: scale(1.2);
-}
-*/
-
