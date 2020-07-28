@@ -6,10 +6,11 @@
     margin: 0;
 }
 .bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0)), url(img/canyon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0)), url(documentation/img/canyon.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     max-width: 100%;
 
@@ -27,17 +28,29 @@
 .nav-link:hover {
     border-bottom: 2px solid #e67e22;
 }
+.image-profile {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.03);
+    transition: transform 0.5s, opacity 0.5s;
+}
 
-.aboutMe-fluid, .input-group-text{
+.image-profile:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+.jumbotron-fluid, .input-group-text{
     background-color: #F49C4D ;
 }
+
 
 .btn{
     background-color: #e67e22;
 }
-.card {
+.border-orange {
     border: 1px solid #924500;
-    box-shadow: 0 2px 5px  #924500;
+    box-shadow: 1px 1px 1rem  #924500;
 }
 .carousel-item img{
     width: 75%;
@@ -53,4 +66,7 @@
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(50%);
+}
+.footer-fluid a .fa {
+    color: #e67e22;
 }
