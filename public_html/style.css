@@ -28,8 +28,11 @@
 .nav-link:hover {
     border-bottom: 2px solid #e67e22;
 }
+h2 {
+    font-size: 40px;
+}
 .image-profile {
-    opacity: 0.7;
+    opacity: 0.8;
     width: 100%;
     height: auto;
     transform: scale(1.03);
@@ -38,7 +41,7 @@
 
 .image-profile:hover {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 .jumbotron-fluid, .input-group-text{
     background-color: #F49C4D ;
@@ -63,10 +66,7 @@
     width: 70%;
     margin: 5rem auto 0;
 }
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(50%);
-}
+
 .footer-fluid a .fa {
     color: #e67e22;
 }
