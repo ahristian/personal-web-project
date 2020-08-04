@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    font-size: 18px;
 }
 .bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0)), url(documentation/img/canyon.jpg);
@@ -13,7 +14,6 @@
     background-attachment: fixed;
     height: 100vh;
     max-width: 100%;
-
 }
 
 .nav-item a {
@@ -32,21 +32,18 @@ h2 {
     font-size: 40px;
 }
 .image-profile {
-    opacity: 0.8;
-    width: 100%;
+
+    width: 90%;
     height: auto;
-    transform: scale(1.03);
-    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s;
 }
 
 .image-profile:hover {
-    opacity: 1;
     transform: scale(1.4);
 }
 .jumbotron-fluid, .input-group-text{
     background-color: #F49C4D ;
 }
-
 
 .btn{
     background-color: #e67e22;
