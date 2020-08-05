@@ -1,6 +1,5 @@
  .Ds_Store
  .idea
  /src/node_modules
- /src/Dockerfile
- /docker-compose.yml
+ /src/.env
 
