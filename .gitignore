@@ -1,5 +1,5 @@
- .Ds_Store
- .idea
- /src/node_modules
- /src/.env
 
+.idea
+.Ds_Store
+/src/node_modules
+/src/.env
