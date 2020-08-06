@@ -5,6 +5,8 @@
     box-sizing: border-box;
     margin: 0;
     font-size: 1rem;
+    font-family: "Serif";
+    letter-spacing: 1px;
 }
 .bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0)), url(../documentation/img/canyon.jpg);
@@ -30,6 +32,7 @@
 }
 h2 {
     font-size: 40px;
+
 }
 .image-profile {
     width: 90%;
@@ -51,6 +54,14 @@ h2 {
     border: 1px solid #924500;
     box-shadow: 1px 1px 1rem  #924500;
 }
+.card-text {
+    text-align: left;
+    letter-spacing: 0.7px;
+}
+.card-title {
+    font-weight: bold;
+}
+
 .carousel-item img{
     width: 75%;
 }
