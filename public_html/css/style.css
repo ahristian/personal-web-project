@@ -35,9 +35,18 @@ h2 {
 
 }
 .image-profile {
-    width: 90%;
+    margin-top: 1rem;
+    width: 95%;
     height: auto;
     transition: transform 0.5s;
+}
+.media-text {
+    margin-top: 1rem;
+    text-align: justify;
+
+}
+.media-body {
+text-align: justify;
 }
 
 .image-profile:hover {
