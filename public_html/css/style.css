@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     font-size: 1rem;
-    font-family: "Serif";
+    font-family: "Serif", "sans-serif";
     letter-spacing: 1px;
 }
 .bg {
